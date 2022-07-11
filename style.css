@@ -1,0 +1,377 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+  }
+  
+.container {
+    width: 75%;
+    margin: 5px;
+}
+  
+.left-section {
+      width: 16%;
+      height: 100%;
+      margin-top: -10px;
+      float: left;
+      border-collapse: collapse;
+      
+  }
+  
+.top-section {
+    width: 100%;
+    height: 50px;
+    border-collapse: collapse;
+    display: flex;
+    
+ }
+
+ .div-section {
+     height: 5px;
+ }
+
+ #adv {
+     width: 100%;
+ }
+
+ #main-div-section {
+    display: flex;
+    height: 50px;
+    margin: 1px;
+    overflow:hidden; 
+     
+ }
+
+ .main-body {
+    min-height: 200vh;
+    width: 83%;
+    float: right;
+    margin-top: -20px;
+ }
+
+ #inner-left-section {
+    width: 16%;
+    position: inherit;
+    height: 1000px;
+    float: inline-start;
+    position: fixed;
+
+ }
+
+ /* width */
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+ #top-left {
+     float: left;
+     margin-right: 200px;
+     margin-left: 10px;
+
+ }
+
+ #top-center {
+     float: center;
+     margin-right: 50px;
+     
+ }
+
+ #top-right {
+     float: right;
+ }
+
+ /*Search input box */
+
+ @import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+    font-size: 16px;
+    font-style: normal;
+    
+}
+
+.wrapper{
+    max-width: 560px;
+    width: 1000%;
+    height: 95%;
+    padding: 5px;
+    display: flex;
+}   
+
+.wrapper .input {
+    width: 100%;
+    padding: 15px 4px;
+    border: none;
+    font-weight: bold;
+    outline-style: solid;
+    outline-width: .5px;
+    outline-color: rgb(221, 217, 217);
+}
+
+.searchbtn {
+    background-color: rgb(247, 245, 245);
+    width: 15%;
+    border-radius: 2px;
+    position: relative;
+    cursor: pointer;
+    outline-style: solid;
+    outline-width: .5px;
+    outline-color: rgb(221, 217, 217);
+    
+}
+
+.searchbtn .fas{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+::placeholder {
+    color:  rgb(160, 154, 154);
+}
+
+.tl-container1 {
+    position: relative;
+    top: -46px;
+    left: 105px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline-style: solid;
+    border: none;
+    padding: 5px;
+    outline-color: rgb(241, 240, 240);   
+}
+
+.tl-item1 {
+    background-color: white;
+    position: relative;
+    top: -50px;
+    left: 285px;
+    cursor: pointer;
+    border: none;
+    padding: 5px;   
+}
+
+.tl-item2 {
+    background-color: white;
+    position: relative;
+    top: -50px;
+    left: 290px;
+    cursor: pointer;
+    border: none;
+    padding: 5px;   
+}
+
+.tl-item3 {
+    background-color: white;
+    position: relative;
+    top: -50px;
+    left: 300px;
+    height: 40px;
+    width: 110px;
+    cursor: pointer;
+    border: solid;
+    border-color: #4294ff;
+    border-radius: 5px;
+    border-width: 1px;
+    color: #4294ff;
+    padding: 5px;
+}
+
+#btn-main {
+    margin-top: 10px;
+    margin-right: 4px;
+    word-wrap: none;
+    white-space: nowrap;
+    padding: 5px;
+    cursor: pointer;
+    border: solid;
+    height: 30px;
+    border-color: #c3c4c5;
+    font-family: Lucida Console (monospace);
+    border-radius: 10px;
+    border-width: 1px;
+    white-space: nowrap;
+    font-size: inherit;
+    transition: background-color 150ms;
+    
+}
+
+#btn-main:hover {
+    background-color: #ddd;
+}
+
+#btn-main.active {
+    background-color: #c3c4c5;
+    color: white;
+    border-color: #EEE;
+}
+
+#btn-main:last-child {
+    margin-right: 0px;
+}
+
+
+#menu-btn, #youtube-btn{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+} 
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item { 
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 100px;
+    padding-bottom: 215px;
+    padding-right: 10px;
+    padding-top: 20px;
+    
+  }
+
+#channel-more-info {
+    font-size: .5rem;
+    text-align: left;
+    
+}
+
+#text-des {
+    display: flex;
+    float: inline-start;
+}
+
+#vid-thumbnail {
+    width: 15%;
+    float: left;
+}
+
+#vid-text {
+    width: 85%;
+    float: right;
+    font-size: 11px;
+}
+
+#pp {
+    cursor: pointer;
+    border: solid;
+    border-color: #ffffff;
+    border-radius: 100px;
+    border-width: .1px;
+}
+
+#cn {
+    font-size: 10px;
+    font-family: Cambria, Cochin, Times, 'Times New Roman', serif;
+    color: rgb(104, 102, 102);
+}
+
+.options {
+    height: auto;
+    overflow: auto;
+    height: 55%;
+}
+
+#btnn {
+    display: flex;
+    width: 95%;
+    height: 40px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: white;
+}
+
+#btnn:hover {
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+#options-icon {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#options-text {
+    margin-top: 10px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+#pic {
+    border-width: 10px;
+    border-radius: 50px;
+}
+
+.signin-2 {
+    margin-left: 20px;
+}
+
+#sn-btn {
+    background-color: #fff;
+    border-color: #4294ff ;
+    color: #4294ff;
+    margin-top: 5px;
+    cursor: pointer;
+    padding: 5px; 
+}
+
+#sn-txt {
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#l-title {
+    margin-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    color: rgb(133, 127, 127);
+    font-size: 15px;
+    font-style: bold;
+    margin-left: 10px;
+}
+
+a {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color: #494747;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#endn {
+    font-family: 'Courier New', Courier, monospace;
+    color: #494747;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+}
